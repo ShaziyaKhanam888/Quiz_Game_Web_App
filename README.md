@@ -5,9 +5,9 @@ This is a quiz game web application built using HTML, CSS, and JavaScript. The q
 
 Features:
 
-Displays a series of questions with multiple-choice options
-Tracks and displays the score
-Includes a timer to complete the quiz within 60 seconds
+Displays a series of questions with multiple-choice options.
+Tracks and displays the score.
+Includes a timer to complete the quiz within 60 seconds.
 
 Usage:
 
