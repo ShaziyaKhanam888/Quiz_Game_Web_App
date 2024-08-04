@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun and interactive quiz game web app built using HTML, CSS, and JavaScript. Test your knowledge and challenge!">
+    <meta name="keywords" content="coding, html, css, javascript, quiz, game, web app">
+    <meta name="author" content="Shaziya Khanam">   
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://kit.fontawesome.com/6c19d36ec3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="timer"><i class="fa-solid fa-clock"></i> <span id="time">60</span> seconds left</div>
+    <h1>Quiz Game</h1>
+     <div id="start-btn">
+        <button id="start" class="color">Start</button>
+    </div>
+    <div id="some-rules"> 
+        <h2>Some Rules of the Quiz</h2>
+        <div id="rules">
+            <ol type="1">
+                <li>You will have only 60 seconds for completing the quiz.</li>
+                <li>Once you select your answer it cannot be undone.</li>
+                <li>You can't exit the quiz while you start.</li>
+                <li>You will get points based on your correct answers.</li>
+            </ol>
+            <button id="exit-quiz" class="color margin">Exit Quiz</button>
+            <button id="start-quiz" class="color margin">Start Quiz</button>
+        </div>
+    </div>
+     <div id="question"></div>
+    <div id="options"></div>
+    <div id="score"></div>
+    <div id="next-btn"><button id="btn" class="color">Next..</button></div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+ /* box-shadow:5px 10px #888888; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(#F5EDED, #E2DAD6);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#timer {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: 3px;    
+}
+
+#timer i {
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+h1 {
+    text-align: center;
+    align-content: center;
+    margin-top: 45px;
+    font-size: 2.5rem;
+}
+
+.color {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.color:hover {
+    background-color: white;
+    color: black;
+}
+
+#start-btn {
+    text-align: center;
+    align-content: center;
+    margin-top: 80px;
+}
+
+#start {
+    font-size: 1.8rem;
+    height: 60px;
+    width: 220px;
+    border: 2px solid whitesmoke;
+    border-radius: 12rem;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+#some-rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5EDED;
+    height: 350px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow:5px 10px #888888;  
+}
+
+h2 {
+    margin-top: 4px;
+}
+
+#rules {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0px -4px 4px #888888;
+}
+
+#rules ol {
+    padding-left: 20px;
+}
+
+#exit-quiz {
+    margin-top: 20px;
+}
+
+#start-quiz {
+    margin-top: 10px;
+}
+
+#question {
+    margin-top: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.option-btn {
+    height: 40px;
+    width: 230px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.correct {
+    border: 2px solid green;
+}
+
+.incorrect {
+    border: 2px solid red;
+}
+
+#score {
+    margin-top: 20px;
+}
+
+#next-btn {
+    margin-top: 20px;
+    display: none;
+}
