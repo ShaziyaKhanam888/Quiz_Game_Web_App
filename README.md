@@ -30,7 +30,7 @@ Your score will be displayed at the end of the quiz.
 
 ## Author
 
-- **Shaziya Khanam** - Developer of the Drum Kit project.
+- **Shaziya Khanam** - Developer of the Quiz Game project.
 
 
 
